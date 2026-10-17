@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="WiFi QR Studio privacy policy — official idevali app information, permissions, and Google Play Data Safety disclosure.">
+  <title>WiFi QR Studio privacy policy | idevali</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body style="--accent:#06b6d4">
+  <header>
+    <a class="brand" href="./index.html">WiFi QR Studio</a>
+    <nav>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+  <main>
+    <span class="eyebrow">Your data</span>
+    <h1>Privacy policy</h1>
+    <p class="lead">How WiFi QR Studio: Branded Maker (<code>com.antigravity.wifiqrstudio.wifi_qr_studio</code>), published by idevali, handles your network information and device permissions.</p>
+
+    <h2>Zero Data Collection Architecture</h2>
+    <p>WiFi QR Studio is intentionally engineered with a strict <strong>100% offline, zero-data-collection</strong> guarantee. We do not collect, store, harvest, sell, or transmit any personal data, device identifiers, Wi-Fi credentials, or camera telemetry. All card generation, PDF compilation, and QR decoding occur strictly on your local device.</p>
+
+    <h2>Real-Time Camera Scanner</h2>
+    <p>WiFi QR Studio requests camera permission (<code>android.permission.CAMERA</code>) solely when you open the built-in scanner to detect and decode Wi-Fi QR codes. Camera video frames are analyzed in volatile RAM using local on-device computer vision algorithms.</p>
+    <p><strong>Camera feeds are never recorded, never saved to disk, and never transmitted over any network.</strong> Each video buffer is immediately discarded as soon as scanning analysis completes.</p>
+
+    <h2>Device Permissions</h2>
+    <p>WiFi QR Studio requests only the minimal permissions necessary for core utility features:</p>
+    <ul>
+      <li><strong>Camera (<code>android.permission.CAMERA</code>):</strong> Used strictly in real time for scanning Wi-Fi QR codes. Discarded immediately after processing.</li>
+      <li><strong>Photo & Media Access (<code>android.permission.READ_MEDIA_IMAGES</code> / <code>READ_EXTERNAL_STORAGE</code>):</strong> Used only on-demand when you explicitly choose to embed a custom business logo/icon into your QR card or scan a QR code screenshot from your photo library.</li>
+      <li><strong>Storage Access (<code>android.permission.WRITE_EXTERNAL_STORAGE</code>):</strong> Used only on legacy Android OS versions when you explicitly export a printable PDF table tent or high-resolution PNG card to your local Downloads folder.</li>
+      <li><strong>Internet (<code>android.permission.INTERNET</code>):</strong> Used exclusively for standard OS checks (such as verifying app update availability via Upgrader or opening user-initiated external links). <strong>No Wi-Fi passwords, SSIDs, or user information are ever transmitted over the internet.</strong></li>
+    </ul>
+
+    <h2>Data Storage & Local Preferences</h2>
+    <p>WiFi QR Studio stores your saved Wi-Fi cards and design preferences locally on your device via standard Android secure storage (SharedPreferences / SQLite). This data remains strictly on your device. You can delete individual saved cards anytime within the app, or delete all data by clearing app storage or uninstalling the app.</p>
+
+    <h2>No Ads, Analytics, or Third-Party Tracking SDKs</h2>
+    <p>WiFi QR Studio does not integrate with any third-party advertising, analytics, or behavioral tracking SDKs:</p>
+    <ul>
+      <li>No Google Analytics, Firebase Analytics, or telemetry aggregators</li>
+      <li>No Crashlytics or remote crash loggers collecting personal data</li>
+      <li>No AdMob, Google Mobile Ads, or external advertising SDKs</li>
+      <li>No user accounts, registrations, or cloud databases required</li>
+    </ul>
+
+    <h2>Children's Privacy (COPPA & Play Families Policy)</h2>
+    <p>WiFi QR Studio does not collect personal data from anyone, including children under 13. It is fully compliant with COPPA and Google Play Families policies, providing a safe, advertisement-free utility for homes, schools, offices, and businesses.</p>
+
+    <h2>Contact</h2>
+    <p>For any questions or support regarding this Privacy Policy or WiFi QR Studio, contact idevali at <a href="mailto:idev.query@gmail.com">idev.query@gmail.com</a>.</p>
+  </main>
+  <footer>
+    Published by idevali · <a href="mailto:idev.query@gmail.com">idev.query@gmail.com</a><br>
+    Last updated 17 October 2026. <a href="../index.html">All apps</a>
+  </footer>
+</body>
+</html>
