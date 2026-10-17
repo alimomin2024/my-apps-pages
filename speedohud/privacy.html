@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Speedo HUD privacy policy — official idevali app information and support.">
+  <title>Speedo HUD privacy policy | idevali</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body style="--accent:#00e5ff">
+  <header>
+    <a class="brand" href="./index.html">Speedo HUD</a>
+    <nav>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+  <main>
+    <span class="eyebrow">Your data</span>
+    <h1>Privacy policy</h1>
+    <p class="lead">How Speedo HUD: GPS Speedometer & Windshield Display, published by idevali, handles your location telemetry and device information.</p>
+
+    <h2>Zero Data Collection Architecture</h2>
+    <p>Speedo HUD is intentionally designed and built with a strict <strong>100% on-device processing and zero-data-collection</strong> guarantee. We do not harvest, track, sell, or transmit any personal data, device identifiers, IP addresses, location trails, or telemetry.</p>
+
+    <h2>Real-Time GPS Telemetry</h2>
+    <p>Speedo HUD requires device location permissions (<code>android.permission.ACCESS_FINE_LOCATION</code> and <code>ACCESS_COARSE_LOCATION</code>) solely to calculate and render real-time vehicle speed (MPH, KM/H, KNOTS), compass heading, trip distance, altitude, and 0-60 MPH acceleration benchmark timing.</p>
+    <p><strong>Location data is processed strictly in volatile device memory (RAM) and is never recorded to disk, never uploaded to the cloud, and never transmitted over the internet.</strong> Each GPS positional update is immediately overwritten by the next reading.</p>
+
+    <h2>Device Permissions</h2>
+    <p>Speedo HUD requests only the minimal permissions necessary for vehicle telemetry:</p>
+    <ul>
+      <li><strong>Location (<code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code>):</strong> Used strictly in real time to calculate speed and distance. Discarded immediately after rendering.</li>
+      <li><strong>Wake Lock (<code>WAKE_LOCK</code>):</strong> Keeps the display illuminated while driving or using the windshield reflection HUD mirror mode so the screen does not turn off.</li>
+    </ul>
+
+    <h2>Data Storage & Local Preferences</h2>
+    <p>Speedo HUD stores only basic user configuration locally on your device via standard Android Shared Preferences (selected speed unit, chosen AMOLED theme, overspeed alarm limit, and local trip odometer counters). This data remains strictly on your device and is wiped if you uninstall the app or clear app data.</p>
+
+    <h2>No Ads, SDKs, or Third-Party Services</h2>
+    <p>Speedo HUD contains zero third-party advertising, analytics, or behavioral trackers:</p>
+    <ul>
+      <li>No Google Analytics or Firebase Analytics</li>
+      <li>No Crashlytics or remote crash loggers collecting personal data</li>
+      <li>No AdMob or third-party advertising SDKs</li>
+      <li>No user accounts, logins, or cloud databases</li>
+    </ul>
+
+    <h2>Children's Privacy</h2>
+    <p>Speedo HUD does not collect personal data from anyone, including children under 13. It is fully compliant with COPPA and Google Play Families policies, providing a safe, advertisement-free driving utility for all drivers.</p>
+
+    <h2>Contact</h2>
+    <p>For questions or support regarding this Privacy Policy or Speedo HUD, contact idevali at <a href="mailto:idev.query@gmail.com">idev.query@gmail.com</a>.</p>
+  </main>
+  <footer>
+    Published by idevali · <a href="mailto:idev.query@gmail.com">idev.query@gmail.com</a><br>
+    Last updated 17 October 2026. <a href="../index.html">All apps</a>
+  </footer>
+</body>
+</html>
